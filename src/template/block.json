@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "aydev/ayblocks",
+	"version": "0.0.1",
+	"title": "Template",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Template block",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "ayblocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
