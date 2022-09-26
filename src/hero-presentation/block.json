@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "aydev/hero-presentation",
+	"version": "0.0.1",
+	"title": "Hero Presentation",
+	"category": "widgets",
+	"icon": "welcome-widgets-menus",
+	"description": "The hero presentation is a block to show an introduction to your page",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "ayblocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

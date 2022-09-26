@@ -22,5 +22,6 @@
  */
 function create_block_ayblocks_block_init() {
 	// register_block_type( __DIR__ . '/build/template' );
+	register_block_type( __DIR__ . '/build/hero-presentation' );
 }
 add_action( 'init', 'create_block_ayblocks_block_init' );
